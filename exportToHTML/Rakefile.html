@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Rakefile</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(188,148,88); font-style: italic; }
+.s1 { color: rgb(230,225,220); }
+.s2 { color: rgb(218,73,57); }
+.s3 { color: rgb(165,194,97); }
+.s4 { color: rgb(204,120,51); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+Rakefile</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<a name="l1"><span class="s0"># Add your own tasks in files placed in lib/tasks ending in .rake,</span><span class="s1"> 
+<a name="l2"></span><span class="s0"># for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.</span><span class="s1"> 
+<a name="l3"> 
+<a name="l4">require </span><span class="s2">File</span><span class="s1">.expand_path(</span><span class="s3">'../config/application'</span><span class="s1">, </span><span class="s4">__FILE__</span><span class="s1">) 
+<a name="l5">require </span><span class="s3">'rake'</span><span class="s1"> 
+<a name="l6"> 
+<a name="l7"></span><span class="s2">FirstApp</span><span class="s1">::</span><span class="s2">Application</span><span class="s1">.load_tasks 
+<a name="l8"></span></pre>
+</body>
+</html>
